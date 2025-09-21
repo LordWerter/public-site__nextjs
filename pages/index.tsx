@@ -5,11 +5,12 @@ import {
   Skeleton,
   VStack,
 } from "@chakra-ui/react"
-import { ColorModeToggle } from "../components/color-mode-toggle"
+import { ColorModeToggle } from "../components"
 
 export default function Page() {
   return (
     <Box textAlign="center" fontSize="xl" pt="30vh">
+      
       <VStack gap="8">
         <Heading size="2xl" letterSpacing="tight">
           Welcome :)
