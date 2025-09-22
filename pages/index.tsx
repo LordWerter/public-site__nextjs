@@ -1,16 +1,9 @@
-import {
-  Box,
-  ClientOnly,
-  Heading,
-  Skeleton,
-  VStack,
-} from "@chakra-ui/react"
-import { ColorModeToggle } from "../components"
+import { Box, ClientOnly, Heading, Skeleton, VStack } from "@chakra-ui/react";
+import { ColorModeToggle } from "../components";
 
 export default function Page() {
   return (
     <Box textAlign="center" fontSize="xl" pt="30vh">
-      
       <VStack gap="8">
         <Heading size="2xl" letterSpacing="tight">
           Welcome :)
@@ -23,5 +16,5 @@ export default function Page() {
         </ClientOnly>
       </Box>
     </Box>
-  )
+  );
 }

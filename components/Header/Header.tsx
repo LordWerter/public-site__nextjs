@@ -1,9 +1,14 @@
-import { Menu } from "@chakra-ui/react"
+import { Menu } from "@chakra-ui/react";
+import { CWrap } from "./Header.styles";
 
 export default function Header() {
+  const { Root, Item } = Menu;
+
   return (
-    <Box textAlign="center" fontSize="xl" pt="30vh">
-        
-    </Box>
-  )
+    <CWrap>
+      <Root>
+        <Item value={"About"} />
+      </Root>
+    </CWrap>
+  );
 }

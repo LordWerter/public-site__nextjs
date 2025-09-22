@@ -1,7 +1,6 @@
 import { Wrap } from "@chakra-ui/react";
 import Link from "next/link";
 
-
 const AboutPage = () => (
   <Wrap>
     <h1>About</h1>

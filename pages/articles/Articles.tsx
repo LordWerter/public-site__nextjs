@@ -1,4 +1,4 @@
-import { TComponentProps } from '../../definitions';
+import { TComponentProps } from "../../definitions";
 
 export type TProps = TComponentProps & {};
 
